@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="com.genericlibraries.ListenerImpClass"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="orderAnItem.OderAnItem">
+        <methods>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="verifyAnItem"/>
+        </methods>
+      </class> <!-- orderAnItem.OderAnItem -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

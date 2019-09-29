@@ -1,0 +1,5 @@
+url:     https://www.amazon.in
+username: 8884893181
+password: Naba@123
+browser:  Chrome
+item   : Redmi note
